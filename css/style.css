@@ -46,12 +46,18 @@ p{
 }
 
 h3{
+   text-align: center;
+   font-size: 40px;
+   margin-bottom: 50px;
+}
+
+h4{
     font-size: 42px;
     color: #7289DA;
     margin-bottom: 20px;
 }
 
-h4{
+h5{
     font-size:20px;
     color: #7289DA;
     margin-bottom: 10px; 
@@ -155,23 +161,18 @@ footer{
 .info-section{
     display: flex;
     width: 1200px;
+    margin: 100px 0;
 
 }
 
 .left-content{
     min-height: 400px;
     width:60%;
-    background-color: #7bd32a;
-    border-style: dotted;
-    border-width: 2px;
 }
 
 .right-content{
     min-height: 400px;
-    flex-grow: 1;
-    background-color: #d1fcf1;
-    border-style: dotted;
-    border-width: 2px; 
+    flex-grow: 1; 
     padding: 40px;
 }
 
@@ -187,6 +188,10 @@ footer{
     background-color: #d3d3d3;
 }
 
+.bgc-blue{
+    background-color: #7289DA;
+}
+
 .reverse{
     flex-direction: row-reverse;
 }
@@ -194,23 +199,36 @@ footer{
 /*fifth section*/
 
 .fifth-container{
-    background-color: green;
     min-height: 500px;
     display: flex; 
     align-items: flex-start;
     align-items:center;
     justify-content: center; 
     padding: 50px;
+    text-align: center;
 
 }
 
 .fifth-section{
-    height: 800px;
+    margin-top: 50px;
     min-height: 400px;
     width: 1200px;
-    background-color: #f2d1fc;
-    border-style: dotted;
-    border-width: 2px;
+    margin-top: 50px;
+}
+
+.title-item4{
+    font-size: 60px;
+}
+
+.item4{
+   height: 800px;
+   width: 1200px; 
+}
+
+.fifth-container .button{
+    color: white;
+    border-color: transparent; 
+    margin-bottom: 50px; 
 }
 
 /*first section footer*/

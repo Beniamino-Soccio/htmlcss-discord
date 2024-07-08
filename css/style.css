@@ -333,6 +333,10 @@ footer{
     border-color: transparent;
 }
 
+li > a{
+    font-size: 18px;
+}
+
 
 
 
